@@ -1,0 +1,13 @@
+body:
+  - type: input
+    attributes:
+      name: winscp_path
+      label: "WinSCP path:"
+      defaultValue: "C:\\Program Files (x86)\\WinSCP\\"
+      description: Folder or .exe of WinSCP (installed or portable). Environment variables are allowed, e.g. %USERPROFILE%\Tools\WinSCP
+  - type: input
+    attributes:
+      name: ini_path
+      label: "WinSCP.ini path (optional):"
+      defaultValue: ""
+      description: Only if your sessions are stored in an INI file outside the WinSCP folder or %APPDATA%. Registry sessions are always read.

@@ -2,11 +2,11 @@
     "ID":"fe5fb914-759c-4e6f-a74b-3757a7d727d9",
     "ActionKeyword":"winscp",
     "Name":"WinSCP Launcher",
-    "Description":"Launch WinSCP sessions",
+    "Description":"Launch WinSCP sites and workspaces",
     "Author":"Raúl Losantos",
-    "Version":"1.0",
+    "Version":"2.0.0",
     "Language":"python",
     "Website":"https://github.com/ralosant/WinSCP-Launcher",
     "ExecuteFileName":"main.py",
-    "IcoPath": "WinSCP.ico"
+    "IcoPath":"images\\WinSCP.ico"
 }
